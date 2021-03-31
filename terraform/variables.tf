@@ -55,12 +55,12 @@ variable "asp_name"{
 }
 variable "asp_tier"{
     type =string
-    default = "PremiumV3"
+    default = "PremiumV2"
     description = "plan Tier"
 }
 variable "asp_size"{
     type =string
-    default = "P1v3"
+    default = "P1v2"
     description = "size"
 }
 variable "appservice_name"{
