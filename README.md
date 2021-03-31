@@ -1,7 +1,7 @@
 Azure App Service Deploy HOL
 ====================
 ## 1. Azure Resource Deploy
-### **1.1. [Terraform Deploy](./terraform/)**
+### **1.1. [Terraform Deploy](./terraform/README.md)**
 ### **1.2. Portal Deploy** 
 <details markdown=1>
 <summary>접기/펼치기</summary>
@@ -115,4 +115,4 @@ Web App 리소스 생성
   </details>
 
 *****************
-## **2. [Deploy Appliation](./dotnet-db-tutorial/)** 
+## **2. [Deploy Appliation](./dotnet-db-tutorial/README.md)** 
