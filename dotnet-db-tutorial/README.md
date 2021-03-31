@@ -1,25 +1,21 @@
----
-languages:
-- csharp
-- aspx-csharp
-page_type: sample
-description: "This is a sample application you can use to follow along w/ the Build a .NET Core and SQL Database web app in Azure Web Apps for Containers tutorial."
-products:
-- azure
-- aspnet-core
-- azure-app-service
----
+# Azure App Service Deploy HOL: Terraform Deploy: Deploy Application
+## 선행작업
+- Git 설치
+- `git clone https://github.com/jkl2554/azure-appservice-deploy-HOL.git`
+- [Azure Resource Deploy](/) 수행
+## 1. Visual Studio 게시
+## 선행작업
+- visual studio 2019이상 버전 설치
+![Visual Studio 게시](images\kHjq2rsazT.png "Visual Studio 게시")
+## 배포 수행 
+- ./dotnet-db-tutorial/DotNetCoreSqlDb.csproj 로드
+- Visual Studio 솔루션 탐색기에서 프로젝트 우클릭 -> 게시
+- 게시 창에서 Azure -> Azure app service(Windows) -> [Azure Resource Deploy](/)단계에서 생성한 App Service선택 -> 게시
 
-# .NET Core MVC sample for Azure App Service
 
-This is a sample application that you can use to follow along with the tutorial at 
-[Build a .NET Core and SQL Database web app in Azure Web Apps for Containers](https://docs.microsoft.com/azure/app-service/containers/tutorial-dotnetcore-sqldb-app). 
+
+
 
 ## License
 
 See [LICENSE](LICENSE.md).
-
-## Contributing
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-  

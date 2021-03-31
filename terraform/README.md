@@ -1,4 +1,4 @@
-# Azure App Service Terraform Deploy for HoL
+# Azure App Service Deploy HOL: Terraform Deploy
 ## 선행 작업 
 - 배포 할 수 있는 Azure 구독 Contributor이상의 권한
 - Azure CLI login

@@ -1,10 +1,11 @@
-Azure App Service: Application 배포
+Azure App Service Deploy HOL
 ====================
-## App Service 준비
-## **1. Deploy Azure Resource** 
-## **1.1. [Terraform Deploy](./terraform/)**
-## **1.2. Portal Deploy**
-*****************
+## 1. Azure Resource Deploy
+### **1.1. [Terraform Deploy](./terraform/)**
+### **1.2. Portal Deploy** 
+<details markdown=1>
+<summary>접기/펼치기</summary>
+
 **위치 : Azure Potal 메인 - Create a resource 블레이즈**  
 
 **선택1.** Cosmos DB 리소스 생성 
@@ -111,5 +112,7 @@ Web App 리소스 생성
 - Name: DBName  
   Value: DB 생성 후 가져온`<Connection String>`  
   Type: Custom(CosmosDB) / SQLAzure(Azure SQL)
+  </details>
 
-## **2. Deploy Azure Resource** 
+*****************
+## **2. [Deploy Appliation](./dotnet-db-tutorial/)** 
