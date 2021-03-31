@@ -49,9 +49,9 @@ terraform init
 terraform apply
 ```
 ## Portal 에서 리소스 생성 확인
- - DB_type=CosmosDB
+ - `DB_type=CosmosDB`
 ![resources](./images/msedge_dQJl6S2NjT.png)
- - DB_type=SQLAzure
+ - `DB_type=SQLAzure`
 ![resources](./images/msedge_cBzprLSah8.png)
 
 ## 리소스 정리
