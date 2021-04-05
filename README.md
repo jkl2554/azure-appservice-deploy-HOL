@@ -114,6 +114,4 @@ Web App 리소스 생성
   Type: Custom(CosmosDB) / SQLAzure(Azure SQL)
   </details>  
   
-*****************  
-  
 ## **2. [Deploy Appliation](./dotnet-db-tutorial/README.md)** 
