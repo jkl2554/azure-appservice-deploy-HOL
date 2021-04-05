@@ -113,6 +113,7 @@ Web App 리소스 생성
   Value: DB 생성 후 가져온`<Connection String>`  
   Type: Custom(CosmosDB) / SQLAzure(Azure SQL)
   </details>
-
+  
 *****************
+
 ## **2. [Deploy Appliation](./dotnet-db-tutorial/README.md)** 
